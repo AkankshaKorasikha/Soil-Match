@@ -1,0 +1,33 @@
+1️⃣ Crop Recommendation System 🌱
+🔹 Objective: Suggest the most suitable crop based on soil properties and climate conditions.
+🔹 Input: N_SOIL, P_SOIL, K_SOIL, pH, TEMPERATURE, HUMIDITY, RAINFALL, STATE
+🔹 Output: Best crop to grow in that location
+🔹 ML Model: Decision Tree, Random Forest, XGBoost
+🔹 Use Case: Farmers get real-time crop suggestions based on soil & climate.
+
+
+
+ Crop Price Prediction 📈
+🔹 Objective: Predict the market price of a crop based on environmental and soil factors.
+🔹 Input: N_SOIL, P_SOIL, K_SOIL, TEMPERATURE, HUMIDITY, RAINFALL, pH, STATE, CROP
+🔹 Output: Predicted crop price (₹ per ton or per kg)
+🔹 ML Model: Regression (Random Forest, XGBoost, LSTM if time-based data is available)
+🔹 Use Case: Helps farmers make better financial decisions by choosing high-value crops.
+
+
+4️⃣ Soil Suitability Analysis 🌍
+🔹 Objective: Determine whether the soil in a particular region is suitable for farming.
+🔹 Input: N_SOIL, P_SOIL, K_SOIL, pH, TEMPERATURE, HUMIDITY, RAINFALL
+🔹 Output: "Suitable" or "Unsuitable" for farming
+🔹 ML Model: Classification (SVM, Random Forest)
+🔹 Use Case: Helps identify degraded lands that need soil treatment.
+
+
+
+
+5️⃣ Regional Crop Suitability Analysis 📍
+🔹 Objective: Identify which states are best for specific crops.
+🔹 Input: STATE, TEMPERATURE, HUMIDITY, RAINFALL, pH, CROP
+🔹 Output: Ranked list of crops that grow best in a region
+🔹 ML Model: Clustering (K-Means)
+🔹 Use Case: Helps policymakers and agronomists optimize agricultural planning.
